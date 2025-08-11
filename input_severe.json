@@ -1,0 +1,171 @@
+[
+    {
+      "user_story": "Edit published dataset.",
+      "inputs": "Dataset Name: \"Sales_Report_2023\"",
+      "preconditions": "",
+      "steps": "1. Open datasets.\n2. Edit \"Sales_Report_2023\".\n3. Add some data.",
+      "expected_results": "Operation completes."
+    },
+    {
+      "user_story": "Edit data model fields.",
+      "inputs": "SalesModel, Old_Field → New_Field",
+      "preconditions": "",
+      "steps": "1. Go to models.\n2. Change a field name.\n3. Save (if available).",
+      "expected_results": ""
+    },
+    {
+      "user_story": "Delete a dataset.",
+      "inputs": "",
+      "preconditions": "",
+      "steps": "1. Find the dataset.\n2. Delete it.",
+      "expected_results": "Dataset may or may not be removed."
+    },
+    {
+      "user_story": "Hide public dataset.",
+      "inputs": "Public_Sales_Report",
+      "preconditions": "User role unclear.",
+      "steps": "1. Open Datasets.\n2. Use Actions to hide or do something similar.",
+      "expected_results": "It should not be visible to others."
+    },
+    {
+      "user_story": "View all datasets as admin.",
+      "inputs": null,
+      "preconditions": "",
+      "steps": "1. Log in (maybe as admin).\n2. Check datasets list.",
+      "expected_results": ""
+    },
+    {
+      "user_story": "Admin delete dataset.",
+      "inputs": "Test_Sales_Report",
+      "preconditions": "",
+      "steps": "1. Locate dataset and remove it.\n2. Confirm if asked.",
+      "expected_results": "Item gone or still there depending on system."
+    },
+    {
+      "user_story": "Change data source URL.",
+      "inputs": "New URL: \"http://example.com/new-data.csv\"",
+      "preconditions": "",
+      "steps": "1. Edit data source and paste new URL.\n2. Save if prompted.",
+      "expected_results": "System uses new data sometimes."
+    },
+    {
+      "user_story": "Add a constant in packager.",
+      "inputs": "Region = Global",
+      "preconditions": "",
+      "steps": "1. Open packager.\n2. Add constant and save.",
+      "expected_results": "Constant added (or not)."
+    },
+    {
+      "user_story": "Import Excel.",
+      "inputs": "File: Sales_Data.xlsx",
+      "preconditions": "",
+      "steps": "1. Upload the file.\n2. Import it.",
+      "expected_results": "Works usually."
+    },
+    {
+      "user_story": "Map visualization readiness.",
+      "inputs": "Coords exist",
+      "preconditions": "",
+      "steps": "1. Try to create a map.\n2. See what happens.",
+      "expected_results": ""
+    },
+    {
+      "user_story": "Import JSON data.",
+      "inputs": "Sales_Data.json",
+      "preconditions": "",
+      "steps": "1. Upload JSON.\n2. Map keys quickly.\n3. Click import.",
+      "expected_results": "Data appears (maybe)."
+    },
+    {
+      "user_story": "Import Google Sheet.",
+      "inputs": "Google Sheet link",
+      "preconditions": "",
+      "steps": "1. Paste URL.\n2. Hit import.",
+      "expected_results": "Import might fail if permissions are wrong."
+    },
+    {
+      "user_story": "Import Fiscal Data Package.",
+      "inputs": "Some descriptor file",
+      "preconditions": "",
+      "steps": "1. Upload descriptor.\n2. Let system do the rest.",
+      "expected_results": ""
+    },
+    {
+      "user_story": "Upload GeoJSON source.",
+      "inputs": "regions.geojson",
+      "preconditions": "",
+      "steps": "1. Upload file.\n2. Give it a name.",
+      "expected_results": "Sometimes visible in maps."
+    },
+    {
+      "user_story": "Filter, sort, aggregate data.",
+      "inputs": "Sales_Data.csv",
+      "preconditions": "",
+      "steps": "1. Apply some filters and sorting.\n2. Look at results.",
+      "expected_results": "Result set returned (maybe incomplete)."
+    },
+    {
+      "user_story": "Download CSV from visualization.",
+      "inputs": "Visualization view",
+      "preconditions": "",
+      "steps": "1. Click download.\n2. Save.",
+      "expected_results": "File is downloaded or not."
+    },
+    {
+      "user_story": "Change currency display.",
+      "inputs": "Conversion rate unspecified",
+      "preconditions": "",
+      "steps": "1. Change currency setting.\n2. Check values.",
+      "expected_results": "Numbers may update inconsistently."
+    },
+    {
+      "user_story": "Show descriptions for visuals.",
+      "inputs": "Some description text",
+      "preconditions": "",
+      "steps": "1. Look near the chart for text.\n2. If absent, assume none provided.",
+      "expected_results": ""
+    },
+    {
+      "user_story": "Share view as URL.",
+      "inputs": "Filtered view",
+      "preconditions": "",
+      "steps": "1. Click share.\n2. Copy link.\n3. Paste somewhere.",
+      "expected_results": "Link may not preserve view."
+    },
+    {
+      "user_story": "Download view image.",
+      "inputs": "Visualization",
+      "preconditions": "",
+      "steps": "1. Click download image.\n2. Save it.",
+      "expected_results": "Image downloaded but may not match filters."
+    },
+    {
+      "user_story": "Share view image to social networks.",
+      "inputs": "Visualization and optional text",
+      "preconditions": "",
+      "steps": "1. Click share image.\n2. Choose a network and post.",
+      "expected_results": "Post may or may not include expected text."
+    },
+    {
+      "user_story": "Customize frontend branding.",
+      "inputs": "Brand: MyApp, Color: unknown",
+      "preconditions": "",
+      "steps": "1. Change branding in config.\n2. Reload app.",
+      "expected_results": "Brand may or may not update everywhere."
+    },
+    {
+      "user_story": "Detect if user is Publisher via API.",
+      "inputs": "User ID: \"12345\"",
+      "preconditions": "",
+      "steps": "1. Call API endpoint for user roles.\n2. See if role contains publisher.",
+      "expected_results": "API might return role or an error."
+    },
+    {
+      "user_story": "Set username.",
+      "inputs": "",
+      "preconditions": "",
+      "steps": "1. Go to settings.\n2. Change username.\n3. Save.",
+      "expected_results": "Username change might fail if name taken."
+    }
+  ]
+  
