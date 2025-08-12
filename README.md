@@ -145,7 +145,7 @@ The JSON includes:
 
 ## Configuration
 
-- **Model**: Uses GPT-4o-mini by default
+- **Model**: Uses Gemini 2.5 Flash by default
 - **Temperature**: Set to 0 for deterministic outputs
 - **Response Format**: Forces JSON output for consistent parsing
 
